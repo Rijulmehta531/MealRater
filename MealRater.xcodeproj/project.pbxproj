@@ -15,6 +15,7 @@
 		BCCE7FF62AEDDC7E00B13E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCE7FF42AEDDC7E00B13E15 /* LaunchScreen.storyboard */; };
 		BCCE7FFE2AEDE1C500B13E15 /* RatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE7FFD2AEDE1C500B13E15 /* RatingController.swift */; };
 		BCCE80012AEE0F3D00B13E15 /* MealRaterModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCCE7FFF2AEE0F3D00B13E15 /* MealRaterModel.xcdatamodeld */; };
+		BCCE80032AEE4D2700B13E15 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE80022AEE4D2700B13E15 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BCCE7FF72AEDDC7E00B13E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCCE7FFD2AEDE1C500B13E15 /* RatingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingController.swift; sourceTree = "<group>"; };
 		BCCE80002AEE0F3D00B13E15 /* MealRaterModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MealRaterModel.xcdatamodel; sourceTree = "<group>"; };
+		BCCE80022AEE4D2700B13E15 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				BCCE7FFD2AEDE1C500B13E15 /* RatingController.swift */,
 				BCCE7FF72AEDDC7E00B13E15 /* Info.plist */,
 				BCCE7FFF2AEE0F3D00B13E15 /* MealRaterModel.xcdatamodeld */,
+				BCCE80022AEE4D2700B13E15 /* TableViewController.swift */,
 			);
 			path = MealRater;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCCE7FEE2AEDDC7C00B13E15 /* ViewController.swift in Sources */,
+				BCCE80032AEE4D2700B13E15 /* TableViewController.swift in Sources */,
 				BCCE7FEA2AEDDC7C00B13E15 /* AppDelegate.swift in Sources */,
 				BCCE80012AEE0F3D00B13E15 /* MealRaterModel.xcdatamodeld in Sources */,
 				BCCE7FFE2AEDE1C500B13E15 /* RatingController.swift in Sources */,
