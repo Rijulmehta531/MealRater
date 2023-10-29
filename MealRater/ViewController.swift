@@ -101,5 +101,12 @@ class ViewController: UIViewController, RatingControllerDelegate, UITextFieldDel
         alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(alertController, animated: true, completion: nil)
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "restLoc" {
+            if let destinationVC = segue.destination as? LocationControllerViewController {
+                destinationVC.textToDisplay = restTF.text
+            }
+        }
+    }
 }
 
